@@ -1,0 +1,22 @@
+plugins {
+    id 'java-library'
+    id 'kotlin'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}
+
+repositories {
+    maven {
+        url "https://kotlin.bintray.com/kotlinx"
+    }
+}
+
+dependencies {
+    implementation project(path: ':common-utils')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
+    implementation "com.google.dagger:hilt-core:$hilt_version"
+}

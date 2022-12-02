@@ -1,0 +1,7 @@
+include ':app'
+rootProject.name = "Reddit"
+include ':database'
+include ':network'
+include ':domain'
+include ':data'
+include ':common-utils'

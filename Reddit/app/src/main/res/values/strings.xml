@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Reddit</string>
+
+    <string name="screen_title_main">Main</string>
+    <string name="screen_title_home">Home</string>
+    <string name="screen_title_subscriptions">Subscriptions</string>
+    <string name="screen_title_profile">Profile</string>
+    <string name="screen_title_post_details">Post</string>
+    <string name="screen_title_post_image">Image</string>
+    <string name="screen_title_subreddit_details">Subreddit</string>
+
+    <string name="common_cancel">Cancel</string>
+
+    <string name="error_generic">Something went wrong</string>
+    <string name="error_server">Something went wrong</string>
+    <string name="error_unauthenticated">You need to be logged in</string>
+    <string name="error_no_result">Something went wrong</string>
+    <string name="error_retry">Retry</string>
+    <string name="error_sign_in_to_vote">Please sign in to vote</string>
+    <string name="error_offline">You are offline</string>
+
+    <string name="comments_add">Add a comment</string>
+    <string name="comments_replies_one">1 more reply</string>
+    <string name="comments_replies_many">%d more replies</string>
+    <string name="comments_replies_continue">Continue this thread</string>
+    <string name="comments_sort_by">Sort comments by</string>
+    <string name="comments_sorted_by">%s comments</string>
+
+    <string name="post_share">Share</string>
+    <string name="posts_sort_by">Sort posts by</string>
+    <string name="posts_sorted_by">%s posts</string>
+
+    <string name="sort_mode_hot">Hot</string>
+
+    <string name="subscriptions_recently_visited">Recently visited subreddits</string>
+    <string name="subscriptions_communities">Communities</string>
+    <string name="subscriptions_favorites">Favorites</string>
+    <string name="subscriptions_collapsed">(Collapsed)</string>
+    <string name="subscriptions_nothing_joined">You haven\'t joined any community yet</string>
+
+    <string name="subreddit_join">Join</string>
+    <string name="subreddit_joined">Joined</string>
+    <string name="subreddit_leave">Leave</string>
+    <string name="subreddit_leave_question">Are you sure you want to leave the r/%s community?</string>
+    <string name="subreddit_members">%s members</string>
+    <string name="subreddit_members_and_online">%s members · %s online</string>
+
+</resources>
